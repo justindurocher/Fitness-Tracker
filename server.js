@@ -4,6 +4,8 @@ var logger = require("morgan");
 
 var mongoose = require("mongoose");
 
+var router = require("express").Router();
+
 const PORT = process.env.PORT || 3000;
 
 const app = express();
@@ -22,3 +24,15 @@ app.listen(PORT, function(){
     console.log("App is running on http://" + PORT);
 
 });
+
+router.get("/stats", function(req,res){
+
+    res.sendFile(path.resolve("public/stats.html"));
+
+});
+
+router.get("/exercise", function(req,res){
+
+    res.sendFile(path.resolve("public/exercise.html"));
+
+})
