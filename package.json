@@ -1,0 +1,27 @@
+{
+  "name": "fitness-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "heroku": "^7.39.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justindurocher/Fitness-Tracker.git"
+  },
+  "author": "Justin Durocher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justindurocher/Fitness-Tracker/issues"
+  },
+  "homepage": "https://github.com/justindurocher/Fitness-Tracker#readme"
+}
